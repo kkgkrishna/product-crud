@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/product-crud/static/css/main.8d6a17ca.css",
+    "main.js": "/product-crud/static/js/main.41bb772d.js",
+    "index.html": "/product-crud/index.html",
+    "main.8d6a17ca.css.map": "/product-crud/static/css/main.8d6a17ca.css.map",
+    "main.41bb772d.js.map": "/product-crud/static/js/main.41bb772d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d6a17ca.css",
+    "static/js/main.41bb772d.js"
+  ]
+}
