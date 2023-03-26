@@ -1,0 +1,12 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "pname": "Realme 3i",
+      "fprice": "20000",
+      "dprice": "15000",
+      "dis": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+      "pic": "https://imgs.search.brave.com/b5_rbW3vB4rE_1x7v2e_h3U8Rxkqt7A1jxLLsDopMF0/rs:fit:968:1024:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZm9uZWFyZW5h/LmNvbS9ibG9nL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE5LzA3/L1JlYWxtZS0zaS0x/LTk2OHgxMDI0Lmpw/Zw"
+    }
+  ]
+}
