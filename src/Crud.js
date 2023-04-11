@@ -90,7 +90,7 @@ const Crud = () => {
 
     function EditProduct(id) {
 
-        alert("Form Data is sending in Update Form !")
+        alert("Card Data is sending in Update Form !")
 
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
