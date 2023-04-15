@@ -184,11 +184,11 @@ const Crud = () => {
                                             <div className="card-body px-5 ">
                                                 <h1 className="card-title border-bottom fw-bold ">{data.pname}</h1>
                                                 <p className="fs-4 fw-bold text-danger">
-                                                    <span className="fs-3 fw-bold text-dark"><BsCurrencyRupee /></span> {data.dprice}/-
-                                                    <s className="ms-4 fs-6 text-secondary ">
+                                                    <span className="fs-3 fw-bold text-dark " ><BsCurrencyRupee /></span> {data.dprice}/-
+                                                    <s className="mx-1 fs-6 text-secondary ">
                                                         <span className="fw-bold "><BsCurrencyRupee /></span> {data.fprice}/- </s>
                                                 </p>
-                                                <p className="card-text">{data.dis}</p>
+                                                <p className="card-text " style={{textAlign:"justify"}}>{data.dis}</p>
 
                                                 <center>
                                                     <button className="btn btn-danger mx-5 mt-3 " onClick={() => DeleteProduct(data.id)} >Delete</button>
