@@ -177,8 +177,8 @@ const Crud = () => {
 
                                 <div className="card mb-3 p-3" style={{ width: "100%" }}>
                                     <div className="row g-0">
-                                        <div className="col-md-4">
-                                            <img src={data.pic} className="img-fluid rounded-start" style={{ height: "100%" }} alt="..." />
+                                        <div className="col-sm-4">
+                                            <img src={data.pic} className="img-fluid rounded-start" style={{ maxHeight: "100%" }} alt="..." />
                                         </div>
                                         <div className="col-md-8 ">
                                             <div className="card-body px-5 ">
@@ -190,8 +190,11 @@ const Crud = () => {
                                                 </p>
                                                 <p className="card-text">{data.dis}</p>
 
-                                                <button className="btn btn-danger w-25" onClick={() => DeleteProduct(data.id)} >Delete</button>
-                                                <button className="btn btn-warning ms-5 w-25 text-white" onClick={() => EditProduct(data.id)} >Edit</button>
+                                                <center>
+                                                    <button className="btn btn-danger mx-5 mt-3 " onClick={() => DeleteProduct(data.id)} >Delete</button>
+
+                                                    <button className="btn btn-warning mx-5 mt-3 text-white" onClick={() => EditProduct(data.id)} >Edit</button>
+                                                </center>
                                             </div>
                                         </div>
                                     </div>
